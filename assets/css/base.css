@@ -1,0 +1,74 @@
+/* Reset CSS*/
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --while-color: #fff;
+    --text-color:#555;
+    --primary-color: #07cc42;
+    --hover-color:rgb(236, 175, 9);
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+@keyframes SubnavFadeIn{
+    from{
+        transform: translateY(80px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes btnTowardLeft{
+    from{
+        transform: translateX(80px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes btnTowardRight{
+    from{
+        transform: translateX(-80px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+
+@keyframes captionText{
+    0%{
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
